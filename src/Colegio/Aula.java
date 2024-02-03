@@ -17,7 +17,7 @@ public class Aula {
     }
 
     public void imprimirNotasMediasFinales() {
-        System.out.println("Notas medias finales por alumno:");
+       
    
         for (int i = 0; i < alumnos.length; i++) {
           
