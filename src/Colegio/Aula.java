@@ -8,9 +8,11 @@ public class Aula {
         this.alumnos = new Alumno[numeroMaximoAlumnos];
     }
 
-    public void agregarAlumno(Alumno alumno, int posicion) {
-        if (posicion >= 0 && posicion < alumnos.length) {
-            alumnos[posicion] = alumno;
+    public void agregarAlumno(String nombre, String apellidos, String telefono, int numAsignaturas) {
+        for (int i = 0; i < alumnos.length; i++) {
+            if (alumnos[i] == null) {
+                alumnos[i] = new Alumno(nombre, apellidos, telefono, numAsignaturas);
+            }
         }
     }
 

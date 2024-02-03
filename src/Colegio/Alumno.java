@@ -14,7 +14,7 @@ public class Alumno {
 		this.asignaturas = new Asignatura[numAsignaturas];
 	}
 
-	public void asignarAsignatura(Asignatura asignatura, int posicion) {
+	public void asignarAsignatura(Asignatura asignatura,int posicion) {
 		if (posicion >= 0 && posicion < asignaturas.length) {
 			asignaturas[posicion] = asignatura;
 		}
