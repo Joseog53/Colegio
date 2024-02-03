@@ -14,14 +14,14 @@ public class Alumno {
 		this.asignaturas = new Asignatura[numAsignaturas];
 	}
 
-	public void asignarAsignatura(String nombreAsignatura, double nota1, double nota2,double notaFinal) {
-		
-		for(int i=0;i<asignaturas.length;i++) {
-			
-			if(asignaturas[i]==null) {
-				
-				asignaturas[i]= new Asignatura(nombreAsignatura,nota1,nota2,notaFinal);
-				
+	public void asignarAsignatura(String nombreAsignatura, double nota1, double nota2, double notaFinal) {
+
+		for (int i = 0; i < asignaturas.length; i++) {
+
+			if (asignaturas[i] == null) {
+
+				asignaturas[i] = new Asignatura(nombreAsignatura, nota1, nota2, notaFinal);
+
 				break;
 			}
 		}
