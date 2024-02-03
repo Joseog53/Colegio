@@ -21,6 +21,8 @@ public class Alumno {
 			if(asignaturas[i]==null) {
 				
 				asignaturas[i]= new Asignatura(nombreAsignatura,nota1,nota2,notaFinal);
+				
+				break;
 			}
 		}
 	}
