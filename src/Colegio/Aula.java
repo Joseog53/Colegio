@@ -2,7 +2,7 @@ package Colegio;
 
 public class Aula {
 
-	private Alumno[] alumnos;
+	Alumno[] alumnos;
 
     public Aula(int numeroMaximoAlumnos) {
         this.alumnos = new Alumno[numeroMaximoAlumnos];
